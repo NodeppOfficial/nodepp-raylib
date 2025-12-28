@@ -2,6 +2,8 @@
 
 The nodepp-raylib component provides a set of high-level C++ bindings and utilities for integrating the powerful Raylib game and graphics library into the nodepp ecosystem. It enables the creation of graphical applications and games with nodepp's asynchronous and event-driven foundation.
 
+🔗: [Your first multiplayer Games | A guide for Absolute Beginners with Raylib, Nodepp and WASM](https://medium.com/@EDBCBlog/your-first-multiplayer-games-a-guide-for-absolute-beginners-with-raylib-nodepp-and-wasm-532133942b43)
+
 ## Dependencies & Cmake Integration
 ```bash
 include(FetchContent)
