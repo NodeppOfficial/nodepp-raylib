@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.0)
+cmake_minimum_required(VERSION 3.6)
 project(nodepp-raylib VERSION 1.0.0)
 
 set(CMAKE_CXX_STANDARD 11)
@@ -71,7 +71,7 @@ elseif(APPLE)
     target_link_libraries(nodepp-raylib INTERFACE "-framework IOKit" "-framework Cocoa" "-framework OpenGL")
 elseif(CMAKE_SYSTEM_NAME MATCHES "Linux")
     # Matches: -lm and standard Linux dependencies
-    target_link_libraries(nodepp-raylib INTERFACE m pthread dl rt X11)
+    target_link_libraries(nodepp-raylib INTERFACE m pthread dl rt)
 endif()
 
 # 8. Add Nodepp dependency if it's not already there
